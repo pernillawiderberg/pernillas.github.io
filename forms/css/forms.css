@@ -1,34 +1,3 @@
-/* ----------- */
-/* ADD FONT 1 */
-/* @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap'); */
-
-/* ----------- */
-/* ADD FONT 2 */
-/* @font-face {
-	font-family: roboto-regular;
-	src: url('../font/Roboto-Regular.ttf');
-}
-h2 {
-	font-family: roboto-regular;
-} */
-/* ----------- */
-/* ADD FONTS 3 */
-/* open-sans-regular - latin - modern browsers  */
-/* @font-face {
-	font-family: 'Open Sans';
-	font-style: normal;
-	font-weight: 400;
-	src: local(''),
-		url('css_fonts/open-sans-v18-latin-regular.woff2') format('woff2'), */
-		/* Chrome 26+, Opera 23+, Firefox 39+ */
-		/* url('css_fonts/open-sans-v18-latin-regular.woff') format('woff'); */
-	/* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-/* }
-body {
-	font-family: 'Open Sans', sans-serif;
-} */
-
-/* --------------------- */
 html {
 	box-sizing: border-box;
 }
@@ -142,6 +111,16 @@ html {
 	color: white;
 }
 
+.address {
+	text-align: center;
+	margin: 1rem 0 1rem;
+}
+
+.iframe {
+	border:0; 
+	border-radius: 10px;
+}
+
 /* add cursor change of button!!! */
 .wrapper input:not([type="radio"]):not([type="checkbox"]),
 .wrapper textarea,
@@ -159,12 +138,12 @@ html {
 	/* added equal height */
 	height: 1.8rem;
 }
-.wrapper address {
-	margin-bottom: 2rem;
-}
 .plugin {
-	border: 0px solid blue;
 	text-align: center;
+}
+
+.wrapper .comments {
+	height: 3.8rem;
 }
 
 @media screen and (max-width: 992px) {

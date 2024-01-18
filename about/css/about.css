@@ -1,3 +1,10 @@
+.signature {
+	font-family: 'Dancing Script', cursive; 
+	font-size: 1.8rem; 
+	margin-top:-0.5rem; 
+	padding-top: 0;
+}
+
 @media screen and (max-width: 992px) {
         article.floatPics {
             margin-top: 0;
